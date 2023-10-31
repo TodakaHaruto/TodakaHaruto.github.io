@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>書籍管理システム</title>
+    <style>
+        #headline{
+            text-align: center;
+            padding-top:50px;
+        }
+        body{
+            background-color:#dcdcdc;
+        }
+        #keyword{
+            text-align: center;
+        }
+        #searchbox{
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 id="headline">書籍検索</h1>
+    <div style="text-align: center;">
+      <img src="book_tate.png" width="100px" height="100">
+    </div>
+    <p id="keyword" class="center">キーワードを入力してください</p>
+    <form id="searchbox" name="form1" action="/cgi-bin/searchBook.py" method="POST">
+        <input type="text" name="param1" />
+        <button type="submit" name="submit">検索</button>
+    </form>
+  </body>
+</html>
