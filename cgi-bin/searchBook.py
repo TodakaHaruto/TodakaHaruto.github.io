@@ -35,7 +35,7 @@ print("</head>")
 print(" <body>")
 print("<h1 align=\"center\"> 検索結果 </h1>")
 print("<div class=\"again\">")
-print("<a href=\"http://localhost:8000/BookManager.html\" >もう一度検索</a>") #再検索用タグ
+print("<a href=\"https://todakaharuto.github.io/\" >もう一度検索</a>") #再検索用タグ
 print("</div>")
 
 #書籍を検索
